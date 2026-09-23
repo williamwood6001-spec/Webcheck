@@ -1,0 +1,12 @@
+{
+  "name": "webcheck",
+  "version": "1.0.0",
+  "description": "WEBCheck paid website and phone risk assessment Telegram bot",
+  "type": "module",
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.0.0"
+  }
+}
