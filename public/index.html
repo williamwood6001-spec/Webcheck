@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>WEBCheck</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #080b12;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 60px;
+    }
+
+    h1 {
+      font-size: 46px;
+      margin: 10px 0;
+    }
+
+    .blue {
+      color: #38bdf8;
+    }
+
+    .subtitle {
+      color: #aab3c2;
+      font-size: 19px;
+      line-height: 1.6;
+      max-width: 650px;
+      margin: 20px auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+      );
+
+      gap: 18px;
+      margin-top: 45px;
+    }
+
+    .card {
+      background: #111722;
+      border: 1px solid #202938;
+      border-radius: 18px;
+      padding: 28px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 25px;
+      background: #38bdf8;
+      color: #001018;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .warning {
+      margin-top: 40px;
+      padding: 20px;
+      border-radius: 15px;
+      background: #16120a;
+      border: 1px solid #493a16;
+      color: #d8c78c;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 60px;
+      color: #687386;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="logo">🔎</div>
+
+    <h1>
+      WEB<span class="blue">Check</span>
+    </h1>
+
+    <p class="subtitle">
+      Evidence-based website and phone
+      risk assessments.
+      Check before you trust.
+    </p>
+
+    <div class="cards">
+
+      <div class="card">
+        <h2>🌐 Website</h2>
+
+        <p>
+          Check technical indicators including
+          DNS, HTTPS/TLS and security configuration.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>📱 Phone</h2>
+
+        <p>
+          Assess available information about a
+          submitted phone number without exposing
+          private subscriber information.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>📊 Reports</h2>
+
+        <p>
+          Receive structured risk assessments
+          with supporting evidence.
+        </p>
+      </div>
+
+    </div>
+
+    <a
+      class="button"
+      href="https://t.me/YOUR_BOT_USERNAME"
+    >
+      Open WEBCheck Bot
+    </a>
+
+    <div class="warning">
+      ⚠️ WEBCheck provides automated risk
+      assessments. A result is not proof that
+      a person or website is fraudulent or
+      legitimate.
+    </div>
+
+    <footer>
+      WEBCheck © 2026
+    </footer>
+
+  </div>
+
+</body>
+</html>
